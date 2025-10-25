@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import { Box, Container } from '@mui/material'
+import { Box } from '@mui/material'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -8,13 +8,9 @@ function MainLayout() {
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
       
-      <Container 
-        component="main" 
-        maxWidth="lg" 
-        sx={{ flex: 1, py: 4 }}
-      >
+      <Box component="main" sx={{ flex: 1 }}>
         <Outlet />
-      </Container>
+      </Box>
       
       <Footer />
     </Box>

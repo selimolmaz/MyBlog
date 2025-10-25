@@ -5,15 +5,21 @@ function Footer() {
     <Box 
       component="footer" 
       sx={{ 
-        py: 3, 
-        px: 2, 
-        mt: 'auto',
-        backgroundColor: (theme) => theme.palette.grey[200] 
+        py: 4,
+        backgroundColor: '#f5f5f7',
+        borderTop: '1px solid rgba(0, 0, 0, 0.1)'
       }}
     >
-      <Container maxWidth="lg">
-        <Typography variant="body2" color="text.secondary" align="center">
-          © {new Date().getFullYear()} My Blog. Tüm hakları saklıdır.
+      <Container maxWidth="xl">
+        <Typography 
+          variant="body2" 
+          sx={{ 
+            color: '#6e6e73',
+            textAlign: 'center',
+            fontSize: '0.875rem'
+          }}
+        >
+          © {new Date().getFullYear()} My Blog. Tüm hakları saklıdır. <br />
         </Typography>
       </Container>
     </Box>

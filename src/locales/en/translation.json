@@ -2,5 +2,9 @@
   "common": {
     "welcome": "Welcome",
     "blog": "Blog"
+  },
+  "home": {
+    "main_idea": "Articles, guides and thoughts about modern technologies",
+    "learn_more": "Explore Articles"
   }
 }

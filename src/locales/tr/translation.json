@@ -2,5 +2,9 @@
   "common": {
     "welcome": "Hoş Geldiniz",
     "blog": "Blog"
+  },
+  "home": {
+    "main_idea": "Modern teknolojiler hakkında yazılar, rehberler ve düşünceler",
+    "learn_more": "Yazıları Keşfet"
   }
 }
